@@ -1,15 +1,24 @@
 # Table with Search and Sorting
 
-This repository contains a versatile table component with search and sorting functionalities. The table is designed to handle generic data types, allowing it to be used with various datasets. It supports two fully sortable columns, making it easy to organize and display data based on specific criteria.
+This repository contains a versatile table component with search and sorting functionalities fully compatible with `iOS and Android`. The table is designed to handle generic data types, allowing it to be used with various datasets. It supports two fully sortable columns, making it easy to organize and display data based on specific criteria.
 
 ## Screen Recording
-In this video, you can see the app running on an `iOS device`. The React Native Debugger is open, allowing us to inspect the cache system. The data is fetched and updated every 20 seconds, and the debounced search provides real-time results as the user types.
-`iOS 14 Pro iOS 16.4`
+In this video, you can see the app running on an `iOS device 14 Pro iOS 16.4`. The React Native Debugger is open, allowing us to inspect the cache system. The data is fetched and updated every 20 seconds, and the debounced search provides real-time results as the user types.
 
+Click the image below for the video showcase:
 
-This video showcases the app on an `Android device`. The same features are demonstrated here, including sorting, search, and data caching. `Please note` that there are a few UI inconsistencies on Android, as refining the UI `was not part` of the initial goal.
-`Pixel 5 API33`
+[<img src="https://drive.google.com/uc?id=1Qr79jDWoAkUNuucKPUVmhiEDW9qdhd8x" width="80%">](https://drive.google.com/file/d/1KZY1nOZmu43ooGbKhSipHihSqWus8i6Y)
 
+This video showcases the app on an `Android device Pixel 5 API33`. The same features are demonstrated here, including sorting, search, and data caching. `Please note` that there are a few UI inconsistencies on Android, as refining the UI `was not part` of the initial goal.
+
+Click the image below for the video showcase:
+
+https://github.com/Gualberto-Vannini/sorting_table/assets/22340454/c15354da-013f-4a39-a9bc-f5a88d5d2ca1
+
+## UI Differences
+
+The User Interface (UI) of the application may vary slightly between iOS and Android due to platform-specific design guidelines and conventions. However, it's important to note that the overall user experience and functionality are consistent across both platforms.
+Please keep in mind that the main focus of this repository is on the core functionality and codebase, and the UI was not the primary scope of this project. As a result, some platform-specific UI optimizations may not have been extensively implemented.
 
 
 ## Features
@@ -96,6 +105,9 @@ with M1 machine could happen sever problems connected with rosetta setup. Place 
 You can always execute both OS from Xcode and Android Studio. My suggestion is always execute with native IDE in order to see more logs.
 
 ## Jest Unit Tests
+
+![tests](https://github.com/Gualberto-Vannini/sorting_table/assets/22340454/eaf600f1-d9d4-4509-b5c3-71199eb03fe8)
+
 
 `schouldfetchData` - This test suite includes tests for the shouldFetchData utility function, which is part of the src/utils/helpers module and is responsible for checking the validity of cached data. The function is designed to determine whether data is available in AsyncStorage, whether it has expired, or whether it needs to be fetched.
 
