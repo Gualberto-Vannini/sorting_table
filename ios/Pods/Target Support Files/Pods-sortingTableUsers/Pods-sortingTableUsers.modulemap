@@ -1,0 +1,6 @@
+module Pods_sortingTableUsers {
+  umbrella header "Pods-sortingTableUsers-umbrella.h"
+
+  export *
+  module * { export * }
+}
